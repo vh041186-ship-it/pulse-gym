@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media ( max-width: 425px){
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+    }
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+ 
+}
+main{
+    color: whitesmoke;
+
+}
+.titulo{
+    color: #ff4500;
+    background-color: black;
+    text-align: center;
+    font-size: 3rem;
+    
+}
+.capa{
+    max-width: 2100px;
+    width: 100%;
+    height: auto;
+}
+header{
+
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+}
+a{
+    padding: 2rem;
+    border-radius: 60px;
+    border: 0.5rem solid #ff4500;
+    font-size: 2rem;
+    background-color: #ff4500;
+    color: whitesmoke;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0 auto;
+    position: relative;
+    bottom: 20rem;
+}
+@media (max-width: 425px); {
+    .Nossos-planos{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+    }
+}
+.Nossos-planos{
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    background-color: black;
+    justify-content: space-around;
+    justify-content: center;
+    gap: 60px;
+}
+.pn{
+    text-align: center;
+    color: whitesmoke;
+    background-color: black;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+.Planos{
+    padding: 1rem;
+    font-size: 2rem;
+}
+ul{
+   
+}
+li{
+    margin: 10px;
+}
+.basic{
+    padding: 2rem;
+    border: 2px solid #ff4500;
+    background-color: #ff4500;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    height: 30rem;
+    border-radius: 30px;
+    max-height: 90rem;
+    height: 100%;
+}
+.intermediario{
+        padding: 2rem;
+    border: 2px solid #ff4500;
+    background-color: #ff4500;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    height: 33rem;
+    border-radius: 30px;
+    max-height: 90rem;
+    height: 100%;
+}
+.premium{
+        padding: 2rem;
+    border: 2px solid #ff4500;
+    background-color: #ff4500;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    height: 36rem;
+    border-radius: 30px;
+    max-height: 90rem;
+    height: 100%;
+}
+article{ 
+    background-color: black;
+}
+.infra{
+    text-align: center;
+    background-color: black;
+    color: #ff4500;
+    font-size: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.card-ap{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 40px;
+}
+@media (max-width: 425px){
+    .card-ap{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+    }
+
+}
+
+.Aparelhos{
+    background-color: black;
+    color: whitesmoke;
+    padding: 2.5rem;
+    border: 2px solid #ff4500;
+    background-color: #ff4500;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    max-height: 90rem;
+    height: 90%;
+    border-radius: 30px;
+    margin-left: 2.5rem;
+    margin-top: 8rem;    
+}
+.Aparelhos_cont{
+    font-size: 1.5rem;
+    
+}
+
+.Musculação{
+    max-width: 950px;
+    width: 80%;
+    height: auto;
+
+}
+.Dance{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 40px;
+}
+.dance_area{
+        text-align: center;
+        font-size: 3rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        color: #ff4500;
+}
+.fitdance{
+     background-color: black;
+    color: whitesmoke;
+    padding: 2.5rem;
+    border: 2px solid #ff4500;
+    background-color: #ff4500;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    max-height: 90rem;
+    height: 90%;
+    border-radius: 30px;
+    margin-right: 2.5rem;
+    margin-top: 8rem;
+}
+.fitdc{
+    max-width: 950px;
+    width: 100%;
+    height: auto;
+}
+.dance_cont{
+    
+}
+.nat_sp{
+    text-align: center;
+    color:#ff4500;
+    font-size: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.Natação_Spa{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-around;
+        gap: 40px;
+}
+.nat{
+    color: whitesmoke;
+    padding: 2.5rem;
+    border: 2px solid #ff4500;
+    background-color: #ff4500;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    max-height: 90rem;
+    height: 90%;
+    border-radius: 30px;
+}
+.sp{
+    color: whitesmoke;
+    padding: 2.5rem;
+    border: 2px solid #ff4500;
+    background-color: #ff4500;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    max-height: 90rem;
+    height: 90%;
+    border-radius: 30px;
+}
+.pisci{
+    max-width: 2000px;
+    width: 100%;
+    height: auto;
+}
+.horarios{
+        text-align: center;
+        font-size: 2rem;
+}
+table{
+    text-align: center;
+    width: 45rem;
+    margin: 0 auto;
+    border: 3px solid #ff4500;
+    border-collapse: collapse;
+    background-color;
+}
+.dias-horarios{
+    background-color: #ff4500;
+    font-size: 2rem;
+}
+td{
+        padding: 1rem;
+        font-size: 1.3rem;
+}
+footer {
+    color: whitesmoke;
+    font-size: 1rem;
+    text-align: center;
+}
