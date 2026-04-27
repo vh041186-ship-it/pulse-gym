@@ -9,40 +9,86 @@ html{
 body{
     background-color: #030303;
     color: #fff9f6;
+    #ff4500;
 }
-/* #ff4500; cor laranja cor cinza #030303 cor larenja-claro #FFF9F6*/
-main{
-    
-
+header{
+    background-image: url(imagems/backgroud2.png);
+    background-size: cover;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 .titulo-inicial{
+    font-size: 3rem;
+    text-align: center;
+    padding: 1.5rem;
+    background: linear-gradient( #ff4500, #ff4500, #fff9f6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#menu-toggle{
+    display: none;
+}
+#nav-bar{
+
 
 }
-.nav-bar{
-
-
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 1rem;
+    gap: 70px;
 }
 a{
-
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #fff9f6;
+    padding: 1.1rem;
+}
+a:hover{
+    border: 2px solid #fff9f6;
+    padding: 1.1rem;
+    border-radius: 25px;
 }
 .titulo-planos{
-
+        text-align: center;
+        font-size: 2.5rem;
+        color: #fff9f6;
+        padding: 2rem;
 }
 #planos{
-
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
 }
-.sub_titulo-plano{
-
+.sub_titulo-planos{
+        font-size: 2rem;
+        padding: 1rem;
+        justify-content: center;
+        gap: 30px;
 }
 .card-plano1{
+    background: linear-gradient(#ff4500, #ff4500, #030303);
+    padding: 3rem;
+    border-radius: 40px;
+    font-size: 1.2rem;
 
 }
 .card-plano2{
+     background: linear-gradient(#ff4500, #ff4500, #030303);
+    padding: 3rem;
+    border-radius: 40px;
+    font-size: 1.2rem;
 
 }
-card-plano3{
-  
-
+.card-plano3{
+     background: linear-gradient(#ff4500, #ff4500, #030303);
+    padding: 3rem;
+    border-radius: 40px;
+    font-size: 1.2rem;
 }
 .ul-card-planos{
    
@@ -106,7 +152,7 @@ td{
 
 }
 tr{
-    
+
 }
 .dias-horarios{
 
