@@ -333,12 +333,8 @@ footer {
         font-size: 1.3rem;
     }
     .card-fitdance .infra-conteudo{
-        position: relative;
-        left: 10px;
     }
     .titulo-gym_box{
-        position: relative;
-        left: 4px;
     }
     .titulo-natação{
         font-size: 2rem;
@@ -351,7 +347,6 @@ footer {
     }
     table{
         width: 300px;
-        margin: 3rem;
     }
     .dias-horarios{
         font-size: 1.3rem;
