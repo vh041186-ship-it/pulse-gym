@@ -302,7 +302,7 @@ footer {
         position: relative;
         bottom: 150px;
         transition: transform 1s;
-        transition: background-color 0.3s;
+        transition: transform 0.5s;
     }
     .titulo-inicial{
         font-size: 2.5rem;
@@ -310,7 +310,6 @@ footer {
     .mobile-buttom:hover{
         transform: scale(1.3);
         border: none;
-        background-color: #030303;
     }
 
     header{
