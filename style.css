@@ -85,20 +85,30 @@ a:hover{
     padding: 3rem;
     border-radius: 40px;
     font-size: 1.2rem;
-
+    transition: transform 1s;
+}
+.card-plano1:hover{
+    transform: translatey(-25px) scale(1.1);
 }
 .card-plano2{
      background: linear-gradient(#ff4500, #ff4500, #030303);
     padding: 3rem;
     border-radius: 40px;
     font-size: 1.2rem;
-
+    transition: transform 1s;
+}
+.card-plano2:hover{
+    transform: translatey(-25px) scale(1.1);
 }
 .card-plano3{
      background: linear-gradient(#ff4500, #ff4500, #030303);
     padding: 3rem;
     border-radius: 40px;
     font-size: 1.2rem;
+    transition: transform 1s;
+}
+.card-plano3:hover{
+    transform: translatey(-25px) scale(1.1);
 }
 .ul-card-planos{
     padding: 0.5rem;
@@ -339,10 +349,9 @@ footer {
     .conteudo-natação, conteudo-spa{
         font-size: 1.3rem;
     }
-    }
     table{
         width: 300px;
-        position
+        margin: 3rem;
     }
     .dias-horarios{
         font-size: 1.3rem;
