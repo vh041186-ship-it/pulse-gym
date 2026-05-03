@@ -18,111 +18,115 @@
                             <a href="#Contato">Contato</a>
                         </nav>
                 </section>
-                 <section id="menu-toggle"> 
+                 <section id="side-bar"> 
+                    <button id="toggle-btn">☰</button>
                         <nav class="menu-mobile">
-                            <a href="#planos">Planos</a>
-                            <a href="#Estrutura">Estrutura</a>
-                            <a href="#Horarios">Horarios</a>
-                            <a href="#Contato">Contato</a>
+                            <a class="mobile-buttom" href="#planos">Planos</a>
+                            <a class="mobile-buttom" href="#Estrutura">Estrutura</a>
+                            <a class="mobile-buttom" href="#Horarios">Horarios</a>
+                            <a class="mobile-buttom" href="#Contato">Contato</a>
                         </nav>
                 </section>
             </header>
-            <img src="imagems/capa3.png" alt="">
+            <img class="img-desktop" src="imagems/capa3.png" alt="">
             <!--planos mensais-->
-            <h2 class="titulo-planos">Nossos Planos</h2>
-            <article id="planos">
-                        <!--basic-->
-                        <div class="card-plano1">
-                                <h3 class="sub_titulo-planos">Basic</h3> <br>
+            <section id="planos">
+                <h2 class="titulo-planos">Nossos Planos</h2>
+                <article id="planos-price">
+                            <!--basic-->
+                            <div class="card-plano1">
+                                    <h3 class="sub_titulo-planos">Basic</h3> <br>
+                                    <p>Com direito a:</p>
+                                    <ul class="ul-card-planos">
+                                        <li>Musculação</li>
+                                        <li>Biopedancia (a cada 6 meses)</li>
+                                        <li>Levar 1 acompanhate mensalmente</li>
+                                    </ul>
+                                    <h3>R$84,99 mensais</h3>
+                            </div>
+                            <!--Intermediario-->
+                            <div class="card-plano2">
+                                <h3 class="sub_titulo-planos">Intermediario</h3>
                                 <p>Com direito a:</p>
                                 <ul class="ul-card-planos">
                                     <li>Musculação</li>
                                     <li>Biopedancia (a cada 6 meses)</li>
-                                    <li>Levar 1 acompanhate mensalmente</li>
-                                </ul>
-                                <h3>R$84,99 mensais</h3>
-                        </div>
-                        <!--Intermediario-->
-                        <div class="card-plano2">
-                            <h3 class="sub_titulo-planos">Intermediario</h3>
-                            <p>Com direito a:</p>
-                            <ul>
-                                <li>Musculação</li>
-                                <li>Biopedancia (a cada 6 meses)</li>
-                                <li>levar 2 acompanhates mesalmente</li>
-                                <li>Fit Dance</li>
-                                <li>Ficha de treino especifica para voce</li>
-                            </ul>
-                            <h3>R$109,99 mensais</h3>
-                        </div>
-                        <div class="card-plano3">
-                            <!--Premium-->
-                            <h3 class="sub_titulo-planos">Premium</h3>
-                            <ul>
-                                <li>Musculação</li>
-                                    <li>Biopedancia (a cada 3 meses)</li>
-                                    <li>levar 5 acompanhates mesalmente</li>
+                                    <li>levar 2 acompanhates mesalmente</li>
                                     <li>Fit Dance</li>
-                                    <li>artes marciais (judo, muaythay e jiujitsu)</li>
                                     <li>Ficha de treino especifica para voce</li>
-                                    <li>acompanhato semanal com um personal</li>
-                                    <li>nutricionista (a cada 4 meses)</li>
-                                    <li>Aulas de natação</li>
-                            </ul>
-                            <h3>R$189,99 mensais</h3>
-                        </div>
-            </article>
+                                </ul>
+                                <h3>R$109,99 mensais</h3>
+                            </div>
+                            <div class="card-plano3">
+                                <!--Premium-->
+                                <h3 class="sub_titulo-planos">Premium</h3>
+                                <ul class="ul-card-planos">
+                                    <li>Musculação</li>
+                                        <li>Biopedancia (a cada 3 meses)</li>
+                                        <li>levar 5 acompanhates mesalmente</li>
+                                        <li>Fit Dance</li>
+                                        <li>artes marciais (judo, muaythay e jiujitsu)</li>
+                                        <li>Ficha de treino especifica para voce</li>
+                                        <li>acompanhato semanal com um personal</li>
+                                        <li>nutricionista (a cada 4 meses)</li>
+                                        <li>Aulas de natação</li>
+                                </ul>
+                                <h3>R$189,99 mensais</h3>
+                            </div>
+                </article>
+            </section>
             <article id="Estrutura">
                 <h2 class="titulo-infra">Nossa infraestrutura</h2> <br>
                 <section class="Aparelhos">
-                    <div class="card-aparelhos">
                         <h3>Musculação e cardio</h3>
-                        <p class="infra-conteudo">Aparelhos da melhor qualidade, <br>
-                        ambiente climatizado, dividido em <br>
-                        area de superiores  e inferiores e <br>
-                        a area de cardio, que conta com <br>
-                        esteiras, bikes, escadas e elipticos, <br>
+                     <div class="card-aparelhos">   
+                        <p class="infra-conteudo">Aparelhos da melhor qualidade, ambiente climatizado, dividido em 
+                        area de superiores  e inferiores e 
+                        a area de cardio, que conta com 
+                        esteiras, bikes, escadas e elipticos, 
                         todos os Aparelhos das melhores marcas!</p>
                     </div>
                     <img class="infraestrutura-imgs" src="imagems/Area de musculaçao.png" alt="">
                 </section>
             </article>
-            <article>
+            <article id="Estrutura-fitdance">
                 <h2 class="titulo-fitdance">Nossa area de fitdance</h2>
                 <section class="Fitdance">
-                    <div class="card-fitdance">
-                        <h3>gym box</h3>
+                        <h3 class="titulo-gym_box">Gym box</h3>
+                        <div class="card-fitdance">
                         <p class="infra-conteudo">Temos professores de dança qualificados, <br>
                         tambem aulas de jumping e muitas outras <br>
                         modalidades de dança!</p>
-                    </div>
+                        </div>
                     <img class="infraestrutura-imgs" src="imagems/fitdance.png" alt="">
                 </section>
             </article>
-            <article>
+            <article id="Estrutura-nat-spa">
                 <h2 class="titulo-natação">Area de natação e Spa</h2>
                 <section class="natação-Spa">
                     <div class="card-natação">
-                        <h3>natação</h3>
+                        <h3 class="sub-titulo_nat">natação</h3>
                         <p class="conteudo-natação">Nossa area de natação conta com <br>
-                        umpiscina olimpica, intrutores de <br>
-                        natação para as aulas e salva-vida. <br>
-                        Tambem temos vestiarios com chuveiro quente <br>
+                        umpiscina olimpica, intrutores de 
+                        natação para as aulas e salva-vida. 
+                        Tambem temos vestiarios com chuveiro quente 
                         e secador de cabelo e sabonete!</p>
                     </div> 
                     <div class="card-spa">
-                        <h3>Spa</h3>
+                        <h3 class="sub-titulo-spa">Spa</h3>
                         <p class="conteudo-spa">Nossa area de spa equipada com; <br>
-                        cadeiras de massagem, macas, sauna <br>
-                        e uma camara de crioterapia, tambem <br>
+                        cadeiras de massagem, macas, sauna 
+                        e uma camara de crioterapia, tambem 
                         cintamos com massagistas qualificados!</p>
                     </div>
                 </section>
+                <div id="imagem-piscina">
                     <img class="infraestrutura-imgs" src="imagems/piscina.png" alt="" width="" height="">
+                 </div>   
             </article>
             <article id="Horarios">
-                <section>
-                    <h3>horario de funcinamento</h3>
+                <sectio class="fucionamento">
+                    <h3 class="titulo-horarios">horario de funcinamento</h3>
                     <table border="1">
                         <tr class="dias-horarios">
                             <td>Dias</td>
@@ -160,6 +164,14 @@
                 </section>
             </article> 
     </main>
+    <script>
+        const btn = document.getElementById("toggle-btn");
+const sidebar = document.querySelector(".menu-mobile");
+
+btn.addEventListener("click", () => {
+    sidebar.classList.toggle("active");
+});
+    </script>
 <footer>
     <p>&copy;Direitos reservados a Pulse gym</p>
     <p>Todas as imagens feitas com <strong>inteligencia artificial.</strong></p>

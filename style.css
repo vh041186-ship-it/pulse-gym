@@ -18,6 +18,14 @@ header{
     top: 0;
     z-index: 1000;
 }
+.img-desktop{
+    max-width: 2048px;
+    width: 100%;
+    height: auto;
+}
+.img-mobile{
+    display: none;
+}
 .titulo-inicial{
     font-size: 3rem;
     text-align: center;
@@ -26,12 +34,8 @@ header{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-#menu-toggle{
+#side-bar{
     display: none;
-}
-#nav-bar{
-
-
 }
 nav{
     display: flex;
@@ -42,7 +46,7 @@ nav{
 }
 a{
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: #fff9f6;
     padding: 1.1rem;
 }
@@ -56,8 +60,14 @@ a:hover{
         font-size: 2.5rem;
         color: #fff9f6;
         padding: 2rem;
+        margin-bottom: 2rem;
 }
 #planos{
+     background-image: url(imagems/backgroud2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#planos-price{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -91,74 +101,197 @@ a:hover{
     font-size: 1.2rem;
 }
 .ul-card-planos{
-   
+    padding: 0.5rem;
 }
-titulo-infra{
-
+#Estrutura{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: url(imagems/backgroud1.png);
+}
+.titulo-infra{
+    font-size: 2.5rem;
+    padding: 2rem;
+    margin-top: 3rem;
+    color: #ff4500;
+    background: linear-gradient( #ff4500, #ff4500, #fff9f6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .Aparelhos{
-
-
+ font-size: 1.5rem;
 }
-card-aparelhos{
-
+.card-aparelhos{
+    display: flex;
+    justify-self: center;
+     width: 500px;
+     padding: 1.5rem;
 }
-.infraestura-imgs{
-
-
+.infraestrutura-imgs{
+        max-width: 1100px;
+        width: 100%;
+        height: auto;
+        border-radius: 30px;
+        padding: 0.3rem;
+        margin-top: 2rem;
+        background: linear-gradient(#ff4500, #030303, #ff4500);
+}
+#Estrutura-fitdance{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: url(imagems/backgroud1.png);
 }
 .titulo-fitdance{
-
-    
+    font-size: 2.5rem;
+    padding: 2rem;
+    margin-top: 3rem;
+    color: #ff4500;
+    background: linear-gradient( #ff4500, #ff4500, #fff9f6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+.titulo-gym_box{
+    position: relative;
+    right: 15px;
 }
 .Fitdance{
-
+    font-size: 1.5rem;
 }
 .card-fitdance{
-   
+    display: flex;
+    justify-self: center;
+     width: 500px;
+     padding: 1.5rem;
+     position: relative;
+     left: 20px;
 
+}
+#Estrutura-nat-spa{
+    background-image: url(imagems/backgroud1.png);
 }
 .titulo-natação{
-
+    text-align: center; 
+    margin: 2rem;
+    font-size: 2.5rem;
+    background: linear-gradient( #ff4500, #ff4500, #fff9f6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
 
 }
-.natação-spa{
-    
+.natação-Spa{
+    display: flex;
+    flex-direction: row;
+    justify-self:center;
+    font-size: 1.5rem;
+    flex-wrap: wrap;
 
 }
 .card-natação{
-        
+     width: 500px;
+     padding: 1.5rem;
+     text-align: center;
 
 }
 .card-spa{
-
-
+    width: 500px;
+     padding: 1.5rem;
+     text-align: center;
 }
-.conteudo-natação{
-
-
+.sub-titulo_nat{
+    text-align: center;
 }
-.conteudo-spa{
-    
+.sub-titulo-spa{
+        text-align: center;
 }
-.horarios{
-        
+#imagem-piscina{
+    display: flex;
+    justify-self: center;
+}
+.titulo-horarios{
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+.funionamento{
+}
+#Horarios{
+    display: flex;
+    justify-self: center;
+
 }
 table{
-  
-
+  border: 3px solid #ff4500;
+  border-collapse: collapse;
+  width: 500px;
 }
 td{
-
+    padding: 1rem;
+    outline: none;
 }
 tr{
+    padding: 1rem;
+    font-size: 1.2rem;
 
 }
 .dias-horarios{
-
+    background-color: #ff4500;
+    font-size: 1.7rem;
 }
 footer {
- 
-
-
+    text-align: center;
+    background-color: #ff4500;
+}
+@media (max-width: 650px){
+    nav{
+        display: none;
+    }
+    #side-bar{
+        display: block;
+        
+    }
+    #toggle-btn{
+        background-color: transparent;
+        color: #fff9f6;
+        font-size: 3rem;
+        padding: 0.5rem;
+        border: none;
+        position: relative;
+        bottom: 94px;
+        left: 12px;
+        z-index: 2000;
+        cursor: pointer;
+    }
+    .menu-mobile{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        background-color: #333232;
+        width: 200px;
+        padding: 1.5rem;
+        position: fixed;
+        top: 0;
+        left: -250px; 
+        width: 250px;
+        height: 100%;
+        background: linear-gradient(#ff4500, #030303);
+        padding-top: 80px;
+        transition: 0.3s ease;
+        z-index: 1000;
+    }
+    .menu-mobile.active {
+     left: 0;
+    }
+    .mobile-buttom{
+        width: 100px;
+        border-radius: 10px;
+        background-color: transparent;
+        position: relative;
+        bottom: 150px;
+    }
+    header{
+        height: 100px;
+    }
 }
