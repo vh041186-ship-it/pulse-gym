@@ -255,6 +255,7 @@ footer {
     text-align: center;
     background-color: #ff4500;
 }
+
 @media (max-width: 650px){
     .img-desktop{
         display: none;
