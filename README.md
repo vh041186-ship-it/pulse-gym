@@ -13,7 +13,8 @@ JavaScript
 ---
 
 ## 📸 Preview
-<img width="1875" height="915" alt="Captura de tela 2026-05-03 043840" src="https://github.com/user-attachments/assets/754a7ba6-293c-435e-9813-c38e3ba2e37e" />
+<img width="1503" height="725" alt="Captura de tela 2026-05-10 035330" src="https://github.com/user-attachments/assets/c01049dc-7b0c-4fe3-9d12-34a11efec95e" />
+
 
 
 
