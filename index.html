@@ -14,6 +14,15 @@
     <nav>
       <h1>Pulse Gym</h1>
 
+      <div class="menu-toggle">☰</div>
+
+      <ul class="nav-menu">
+      <li><a class="mobile-bnt" href="#planos">Planos</a></li>
+      <li><a class="mobile-bnt" href="#estrutura">Estrutura</a></li>
+      <li><a class="mobile-bnt" href="#horarios">Horários</a></li>
+      <li><a class="mobile-bnt" href="#contato">Contato</a></li>
+      </ul>
+
       <ul>
         <li><a class="nav-bnt" href="#planos">Planos</a></li>
         <li><a class="nav-bnt" href="#estrutura">Estrutura</a></li>
@@ -21,8 +30,9 @@
         <li><a class="nav-bnt" href="#contato">Contato</a></li>
       </ul>
     </nav>
+    </header>
 
-    <section>
+    <section id="Frase-impactante">
       <h2 class="frase-motivacioal">Transforme seu corpo e sua disciplina</h2>
 
       <p>
@@ -30,7 +40,6 @@
         força e performance todos os dias.
       </p>
     </section>
-  </header>
   <!-- PLANOS -->
   <section id="planos">
 
@@ -215,4 +224,12 @@
   </footer>
 
 </body>
+<script>
+  const toggle = document.querySelector(".menu-toggle");
+  const menu = document.querySelector(".nav-menu");
+
+  toggle.addEventListener("click", () => {
+    menu.classList.toggle("active");
+  });
+</script>
 </html>
