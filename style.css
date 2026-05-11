@@ -17,9 +17,9 @@ html{
     display: none;
 }
 body{
-    background: linear-gradient(#030303, #030303, #030303, #ff4500);
+    background: linear-gradient(60deg, #030303, #030303, #ff4500);
     background-size: 300% 300%;
-    animation: FundoAnimado 8s ease-out infinite;
+    animation: FundoAnimado 7s ease-out infinite;
     color: #fff9f6;
 }
 @keyframes FundoAnimado{
@@ -30,7 +30,7 @@ body{
         background-position: 50% 100%;
     }
     100%{
-        background-position: 50% 0;
+        background-position: 50% 10%;
     }
 }
 
@@ -78,6 +78,9 @@ header h1{
         color: transparent;
         position: relative;
         bottom: 30px;
+}
+.nav-munu{
+    display: none;
 }
 nav li{
 
@@ -500,11 +503,11 @@ footer p{
     .nav-menu{
         position: fixed;
         top: 0;
-        right: -100%;
-        width: 250px;
+        left: -100%;
+        width: 200px;
         height: 100vh;
-        background: rgba(3, 3, 3, 0.4);
-        backdrop-filter: blur(20px);
+        background: rgba(3, 3, 3, 0.8);
+        backdrop-filter: blur(30px);
 
         display: flex;
         flex-direction: column;
@@ -513,13 +516,13 @@ footer p{
 
         gap: 40px;
 
-        transition: right 0.8s ease-out;
+        transition: left 0.8s ease-out;
 
         z-index: 1000;
     }
 
     .nav-menu.active{
-        right: 0;
+        left: 0;
     }
 
     .mobile-bnt{
@@ -527,11 +530,10 @@ footer p{
         text-decoration: none;
         color: #fff9f6;
         text-align: end;
-        transition: color 0.6s, transform 0.6s;
+        transition: color 0.6s;
     }
     .mobile-bnt:hover{
         color: #ff4500;
-        transform: scale(1.1);
     }
 
 }
@@ -547,7 +549,10 @@ footer p{
     #Frase-impactante p{
         font-size: 1.8rem;
     }
-
+    header h1{
+        position: relative;
+        top: 2px;
+    }
   nav{
 
   }
