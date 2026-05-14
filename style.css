@@ -72,7 +72,7 @@ header h1{
         text-align: center;
         padding: 1rem;
         font-size: 3rem;
-        background: linear-gradient(#ff4500, #ff4500);
+        background: linear-gradient(to right, #ff4500, #ff4500, #fff9f6);
         background-clip: text;
         -webkit-background-clip: text;
         color: transparent;
