@@ -18,6 +18,7 @@ html{
 }
 body{
     background: linear-gradient(60deg, #030303, #030303, #ff4500);
+    backdrop-filter: blur(30px);
     background-size: 300% 300%;
     animation: FundoAnimado 7s ease-out infinite;
     color: #fff9f6;
