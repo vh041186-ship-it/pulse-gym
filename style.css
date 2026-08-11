@@ -17,23 +17,13 @@ html{
     display: none;
 }
 body{
-    background: linear-gradient(60deg, #030303, #030303, #ff4500);
+    background: linear-gradient(to bottom, #030303, #030303, #ff4500);
     backdrop-filter: blur(30px);
     background-size: 300% 300%;
     animation: FundoAnimado 7s ease-out infinite;
     color: #fff9f6;
 }
-@keyframes FundoAnimado{
-    0%{
-        background-position: 50% 0%;
-    }
-    50%{
-        background-position: 50% 100%;
-    }
-    100%{
-        background-position: 50% 10%;
-    }
-}
+
 
 /* HEADER */
 
@@ -100,6 +90,7 @@ nav li{
 }
 #Frase-impactante{
     text-align: center;
+
 }
 
 
@@ -126,7 +117,13 @@ color: #fff9f6;
     position: relative;
     top: 30px;
 }
-
+img{
+    max-width: 85%;
+    height: auto;
+}
+.img_mobile{
+    display: none;
+}
 /* SECTIONS */
 
 section{
@@ -484,7 +481,6 @@ footer p{
 }
 
 /* MOBILE */
-
 @media (max-width: 680px){
 
     nav ul{
@@ -555,7 +551,14 @@ footer p{
 #horarios article:hover{
     border-color: #ff4500;
 }
-
+    .img_mobile{
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    img{
+        display: none;
+    }
 }
 
 /* RESPONSIVO */
